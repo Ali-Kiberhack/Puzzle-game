@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/menu6"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <EditText
+        android:id="@+id/editPlayer"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Player:"
+        android:textColorHint="@color/red"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        app:backgroundTint="@null"
+        android:background="@drawable/btnmenu"
+
+        />
+
+    <Button
+        android:id="@+id/instruction"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="Info"
+        android:layout_marginTop="20dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/btnmenu"
+
+        />
+
+
+</LinearLayout>
